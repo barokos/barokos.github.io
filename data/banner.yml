@@ -1,0 +1,12 @@
+####################### Banner #########################
+style: "style2 orient-center content-align-center image-position-right normal onload-image-fade-in onload-content-fade-right"
+title : "Jakub Matyjaszek"
+subtitle: |
+  Jestem fotografem bla bla daj mi tu coś żeby napisać.
+content : |
+  Tu też by wypadało coś o sobie napisać bo bywa trochę pusto.
+button:
+  label : "Kontakt"
+  link : "#kontakt"
+image : "images/Widoczek.jpg"
+
