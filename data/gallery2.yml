@@ -4,27 +4,26 @@ content: |
   This is a <strong>Gallery</strong> element. It can behave as a lightbox (when given the <code>lightbox</code> class), and you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-gallery">Całe zdjęcie</a>).
 pictures:
 
-  - title: "droga"
+  - title: "Samolot"
     content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery2/droga.jpg"
-    thumb: "images/gallery2/droga.jpg"
+    image: "images/gallery2/Samolot.jpg"
+    thumb: "images/gallery2/Samolot.jpg"
     button: "Całe zdjęcie"
 
-  - title: "Okno"
+  - title: "Tablica"
     content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery2/Jasne_Okno.jpg"
-    thumb: "images/gallery2/Jasne_Okno.jpg"
+    image: "images/gallery2/tablica.jpg"
+    thumb: "images/gallery2/tablica.jpg"
     button: "Całe zdjęcie"
 
-  - title: "boisko"
-    content: ""
-    image: "images/gallery2/boisko.jpg"
-    thumb: "images/gallery2/boisko.jpg"
+  - title: "Motur"
+    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery2/Motur.jpg"
+    thumb: "images/gallery2/Motur.jpg"
     button: "Całe zdjęcie"
 
-  - title: "Wieżowiec"
+  - title: "Widoczek"
     content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery2/Wiezowiec3.jpg"
-    thumb: "images/gallery2/Wiezowiec3.jpg"
+    image: "images/gallery2/Widoczek.jpg"
+    thumb: "images/gallery2/Widoczek.jpg"
     button: "Całe zdjęcie"
-  
