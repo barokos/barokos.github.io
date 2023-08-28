@@ -5,33 +5,26 @@
 theme = "hugo-story"
 title = "Jakub Matyjaszek"
 copyright = "{year}"
-## -----------------------------------------------
-## Publish
-## -----------------------------------------------
 
 relativeURLs = "true"
-#canonifyURLs = "true"
 
-# Local
+
+
 baseURL = "https://matyjaszek.github.io/"
 publishDir = "public"
 
-# Remote
-#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
-#publishDir = "//centos/sites/hugodev/hugostory/"
 
 
-## -----------------------------------------------
-## Hugo Built-in Features
-## -----------------------------------------------
 
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
-# googleAnalytics = "your-google-analytics-id"
-
-## -----------------------------------------------
-## Site Parameters
-## -----------------------------------------------
 
 [Params]
 
 [Params.social]
+  github = "https://github.com/baroksos/"
+  twitter = "https://twitter.com/JakubMatyjasze1"
+  email = "jakubtakephotos@gmail.com"
+  instagram = "https://instagram.com/jakub.matyjaszek"
+  pinterest = "https://pinterest.com/kubamatyjaszek/"
+
+

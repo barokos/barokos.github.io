@@ -1,8 +1,6 @@
 ####################### Spotlight #########################
 style: "style2 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "Pierwsze zdjęcie"
-title : "Spotlight"
-content: |
-  This is a <strong>Spotlight</strong> element, and it's generally used &ndash; as its name implies &ndash; to spotlight a particular feature, subject, or pretty much whatever. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
-
+title : "Fotografia jako Okno do Wielu Światów"
+content: Na początku życia nastoletniego zaczęło mnie fascynować, jak bardzo sytuacja może się róznić w zależności od punktu widzenia. To było i jest da mnie niesamowite, jak jedna rzecz może być dla kogoś czymś innym. Inne wspomnienia, inne odczucia. Tak samo jest z postrzeganiem świata - każdy go widzi inaczej, i w tym momencie zobaczyłem piękno fotografii. Zdjęcie to wycinek świata, często bez kontekstu, a co za tym idzie, nawet bez retuszu można coś przedstawić w sposób, który nam odpowiada.
 image: "images/ja.jpg"

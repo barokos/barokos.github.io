@@ -2,9 +2,8 @@
 style: "style2 orient-center content-align-center image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
 title : "Jakub Matyjaszek"
 subtitle: |
-  Jestem fotografem bla bla daj mi tu coś żeby napisać.
+  I am a street photographer.
 content : |
-  Tu też by wypadało coś o sobie napisać bo bywa trochę pusto.
 button:
   label : "Kontakt"
   link : "#kontakt"

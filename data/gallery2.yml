@@ -1,7 +1,6 @@
-title: "Galeria druga"
+title: "Druga galeria"
 style: "style1 small lightbox onscroll-fade-in"
-content: |
-  Coś tu trzeba napisać....
+content:
 pictures:
 
   - title: "Samolot"

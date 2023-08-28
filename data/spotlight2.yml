@@ -1,6 +1,5 @@
 ####################### Spotlight #########################
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Jakie zdjęcia??"
-content: |
-  This is also a <strong>Spotlight</strong> element, and it's here because this demo would look a bit empty with just one spotlight. Like all spotlights, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+title : "Fotograficzne Mistrzostwo: Photoshop i Lightroom jako Mojego Życia Podstawa"
+content: "Photoshop i Lightroom to moje niezawodne narzędzia, które pozwalają mi wyrazić swoją kreatywność w fotografii. Przy każdym nowym projekcie jestem gotów na różne podejścia. Czasem wystarczy delikatnie podkręcić kolory, aby dodać życia i głębi zdjęciu, ale są takie momenty, gdy zanurzam się w tym kreatywnym procesie na długie godziny. To wtedy tworze niemalże graficzne dzieło sztuki zamiast zwykłego zdjęcia. Nie zawsze wszyscy rozumieją moje podejście, i często słyszę komentarze typu: \"Za mocno przerobione\". Jednakże, dla mnie nie ma ograniczeń w kreatywności, a Photoshop i Lightroom pozwalają mi osiagnąć efekty, które pasują do mojej wizji artystycznej." 
 image: "images/budowa.jpg"
