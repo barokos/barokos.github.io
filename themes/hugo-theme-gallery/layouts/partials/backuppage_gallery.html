@@ -16,11 +16,10 @@
           {{ else if or (eq . 6) (eq . 5) }}
             {{ $rotation = " r270" }}
           {{ end }}
+        {{ end }}
         {{ $thumbnail := ($original.Fit (printf "%s %s" "800x800" $rotation)) }}
         {{ $full := ($original.Fit (printf "%s %s" "1600x1600" $rotation)) }}
         {{ $color := index $thumbnail.Colors 0 | default "transparent" }}
-        
-        {{ end }}
         <a
           href="{{ $original.RelPermalink }}"
           class="fj-gallery-item cursor-zoom-in"
@@ -37,7 +36,7 @@
           {{ end }}
           itemscope
           itemtype="https://schema.org/ImageObject"
-          style="background-color: '{{ $color }}'; aspect-ratio: '{{ $thumbnail.Width }}' / '{{ $thumbnail.Height }}'">
+          style="background-color: {{ $color }}; aspect-ratio: {{ $thumbnail.Width }} / {{ $thumbnail.Height }}">
           <img
             width="{{ $thumbnail.Width }}"
             height="{{ $thumbnail.Height }}"

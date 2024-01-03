@@ -31,7 +31,7 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    timeout: 1000000
+    timeout-minutes: 360
     steps:
       - name: Install Hugo CLI
         run: |
