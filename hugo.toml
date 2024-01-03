@@ -1,0 +1,36 @@
+title = "Jakub Matyjaszek"
+languageCode = "pl-PL"
+copyright = "© Jakub Matyjaszek"
+disableKinds = ["taxonomy", "term"]
+defaultContentLanguage = "pl"
+enableRobotsTXT = true
+timeZone = "Europe/Warsaw"
+theme = "hugo-theme-gallery"
+
+[params]
+  title = "Jakub Matyjaszek"
+  description = "Example site for hugo-theme-gallery"
+  defaultTheme = "dark"
+
+[author]
+  name = "Jakub Matyjaszek"
+
+[outputs]
+  page = ["HTML"]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
+
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 75
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription"
+
+
+[menu]
+[[menu.footer]]
+  name = "Instagram"
+  url = "https://instagram.com/barokos_designer"
+  weight = 3 
