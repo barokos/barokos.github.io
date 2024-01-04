@@ -55,10 +55,13 @@ jobs:
       #- name: Build with Hugo
        # env:
           # For maximum backward compatibility with Hugo modules
+
+
          # HUGO_ENVIRONMENT: development
          # HUGO_ENV: development
       #  run: |
      #     hugo --gc --minify --baseURL "barokos.github.io"        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
