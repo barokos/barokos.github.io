@@ -9,7 +9,7 @@ theme = "hugo-theme-gallery"
 baseURL = "https://barokos.github.io"
 [params]
   title = "Jakub Matyjaszek"
-  description = "Example site for hugo-theme-gallery"
+  description = "Strona"
   defaultTheme = "dark"
 
 [author]
