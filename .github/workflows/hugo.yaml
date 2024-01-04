@@ -52,13 +52,13 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Build with Hugo
-        env:
+      #- name: Build with Hugo
+       # env:
           # For maximum backward compatibility with Hugo modules
-          HUGO_ENVIRONMENT: development
-          HUGO_ENV: development
-        run: |
-          hugo --gc --minify --baseURL "barokos.github.io"        
+         # HUGO_ENVIRONMENT: development
+         # HUGO_ENV: development
+      #  run: |
+     #     hugo --gc --minify --baseURL "barokos.github.io"        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
