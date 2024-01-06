@@ -1,6 +1,6 @@
 ---
 title: Motoryzacja 
-description: BLA BLA BLA COŚ TU SIE DA! 
+description: 
 featured_image: 101_3345.jpg 
 weight: 3
 sort_by: Name # Exif.Date

@@ -1,6 +1,6 @@
 ---
 title: Zwierzęta 
-description: Exotic wildlife, pet kittens — and everything in between. Uncover the beauty of the animal kingdom through your screen.
+description: 
 featured_image: 101_0858.jpg 
 weight: 1
 

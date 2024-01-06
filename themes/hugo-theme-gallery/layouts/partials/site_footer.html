@@ -1,13 +1,13 @@
 <footer class="mx-auto mb-10 mt-4 flex max-w-screen-3xl flex-none flex-wrap justify-center px-6 text-center text-sm text-secondary" style="font-size: 20px; text-decoration: underline; ">
     <span class="m-2">
-      <a href="https://barokos.github.io">{{ .Site.Copyright }}</a>
+      <a>{{ .Site.Copyright }}</a>
     </span>
   
     {{ if .Site.Menus.footer }}
       <ul class="my-2 flex flex-wrap justify-center">
         {{ range .Site.Menus.footer }}
           <li>
-            <a href="{{ .URL }}" class="mx-2">
+            <a href="{{ .URL }}" class="mx-2" target="_blank">
               {{ .Name }}
             </a>
           </li>

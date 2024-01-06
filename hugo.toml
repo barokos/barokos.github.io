@@ -1,6 +1,6 @@
 title = "Jakub Matyjaszek"
 languageCode = "pl-PL"
-copyright = "© Jakub Matyjaszek"
+copyright = "2023-2024 © Jakub Matyjaszek"
 disableKinds = ["taxonomy", "term"]
 defaultContentLanguage = "pl"
 enableRobotsTXT = true
@@ -34,3 +34,8 @@ baseURL = "https://barokos.github.io"
   name = "Instagram"
   url = "https://instagram.com/barokos_designer"
   weight = 3 
+
+[[menu.main]]
+  identifier = "kontakt"
+  name = "Kontakt"
+  url = "/kontakt/"
