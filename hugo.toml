@@ -1,4 +1,4 @@
-title = "Jakub Matyjaszek"
+title = "Barokos Designer"
 languageCode = "pl-PL"
 copyright = "2023-2024 © Jakub Matyjaszek"
 disableKinds = ["taxonomy", "term"]
@@ -8,7 +8,7 @@ timeZone = "Europe/Warsaw"
 theme = "hugo-theme-gallery"
 baseURL = "https://barokos.github.io"
 [params]
-  title = "Jakub Matyjaszek"
+  title = "Barokos Designer"
   description = "Strona"
   defaultTheme = "dark"
 

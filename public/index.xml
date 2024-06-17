@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Strona Główna on Jakub Matyjaszek</title>
+    <title>Strona Główna on Barokos Designer</title>
     <link>https://barokos.github.io/</link>
-    <description>Recent content in Strona Główna on Jakub Matyjaszek</description>
+    <description>Recent content in Strona Główna on Barokos Designer</description>
     
     <language>pl-PL</language>
     <copyright>2023-2024 © Jakub Matyjaszek</copyright><atom:link href="https://barokos.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Zwierzęta</title>
-      <link>https://barokos.github.io/zwierzeta/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://barokos.github.io/zwierzeta/</guid><media:content url="https://barokos.github.io/zwierzeta/101_0858_huddc16cd56e6bc881ae00842796b8ab6f_377320_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;https://barokos.github.io/zwierzeta/101_0858_huddc16cd56e6bc881ae00842796b8ab6f_377320_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
-          &lt;p&gt;&lt;/p&gt;
-        </description></item><item>
       <title>Grafika</title>
       <link>https://barokos.github.io/grafika/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -56,9 +47,9 @@
       <link>https://barokos.github.io/motoryzacja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://barokos.github.io/motoryzacja/</guid><media:content url="https://barokos.github.io/motoryzacja/101_3345_hu1025e58b88c234d06a5285d4a51ab327_387306_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
+      <guid>https://barokos.github.io/motoryzacja/</guid><media:content url="https://barokos.github.io/motoryzacja/P1083208_hub2d1064cd7d92a6740fe266883c91794_5714688_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://barokos.github.io/motoryzacja/101_3345_hu1025e58b88c234d06a5285d4a51ab327_387306_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
+          &lt;img src=&quot;https://barokos.github.io/motoryzacja/P1083208_hub2d1064cd7d92a6740fe266883c91794_5714688_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
           &lt;p&gt;&lt;/p&gt;
         </description></item><item>
       <title>Natura</title>
