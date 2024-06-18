@@ -2,25 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://barokos.github.io/grafika/</loc>
+    <loc>http://localhost:1313/grafika/</loc>
   </url><url>
-    <loc>https://barokos.github.io/horror/</loc>
+    <loc>http://localhost:1313/horror/</loc>
   </url><url>
-    <loc>https://barokos.github.io/luxury/</loc>
+    <loc>http://localhost:1313/luxury/</loc>
   </url><url>
-    <loc>https://barokos.github.io/miasto/</loc>
+    <loc>http://localhost:1313/miasto/</loc>
   </url><url>
-    <loc>https://barokos.github.io/motoryzacja/</loc>
+    <loc>http://localhost:1313/motoryzacja/</loc>
   </url><url>
-    <loc>https://barokos.github.io/natura/</loc>
+    <loc>http://localhost:1313/self/</loc>
   </url><url>
-    <loc>https://barokos.github.io/self/</loc>
+    <loc>http://localhost:1313/wieden/</loc>
   </url><url>
-    <loc>https://barokos.github.io/wieden/</loc>
+    <loc>http://localhost:1313/kontakt/</loc>
   </url><url>
-    <loc>https://barokos.github.io/kontakt/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://barokos.github.io/about/</loc>
-  </url><url>
-    <loc>https://barokos.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
   </url></urlset>
