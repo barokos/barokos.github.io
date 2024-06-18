@@ -1,728 +1,387 @@
 <!doctype html>
-<html lang="pl-PL" class="dark h-full"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html class="dark" lang="pl-PL">
+  <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <title>Self – Barokos Designer</title>
-  <link rel="canonical" href="http://localhost:1313/self/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Self - Barokos Designer</title>
+  <link rel="canonical" href="https://barokos.github.io/self/" />
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
   <link rel="icon" type="image/png" href="/images/favicon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
-  <link rel="preload" href="/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin="anonymous" integrity="sha256-ive9W1RVZ63/s9/Otb7bNTpSLXvxs6K4r3tgZBVrq8A=" />
   <meta name="description" content="Strona" />
-  <meta name="generator" content="Hugo 0.127.0">
+  
+  
+    <meta name="robots" content="noindex, nofollow" />
   
   <meta property="og:title" content="Self" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/self/" /><meta property="og:image" content="http://localhost:1313/self/P1070375-2.png" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://barokos.github.io/self/" /><meta property="og:image" content="https://barokos.github.io/self/P1070375-2.png" /><meta property="article:section" content="" />
   
   <meta property="og:site_name" content="Barokos Designer" />
 
   
-  <link rel="stylesheet" href="/css/main.min.a53aea67941685bcf9072890b6f68685eed2360e69dbb88706f4ca2806cccfb0.css" />
+  <link rel="stylesheet" href="/css/main.min.5246b5ca2af2b7f7e15a3795a27895afb4521425a19dc961a4728a741d74a414.css" />
   
-  <script src="/js/main.508c0883ed566525f634260ca62549328ac0f73837b2a77454df3184151db99b.js" defer></script>
-</head>
-<body class="flex min-h-full flex-col bg-background text-primary antialiased"><header class="w-full">
-  <div class="mx-auto flex max-w-screen-3xl flex-wrap justify-between px-6" x-data="{ expanded: false }">
-    <div class="flex h-16 w-full justify-between">
-      
-      
-        
-          
-        
-        
-          <a class="-ms-4 inline-flex items-center px-3 py-5 text-xl font-medium" href="/" title="Strona Główna">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
-            </svg>
-          </a>
-        
-      
-
-
-      <button @click="expanded = !expanded" type="button" class="group -me-4 ml-3 inline-flex items-center p-3 text-s" title="">
-        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-show="!expanded">
-          <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-        </svg>
-        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-cloak="x-cloak" x-show="expanded">
-          <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-        </svg>
-      </button>
-    </div>
-
-    <div x-cloak x-show="expanded" x-collapse class="w-full"><ul class="my-12 text-center text-xl font-medium text-secondary">
   
-    <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-      <a class=" block py-2 transition-colors hover:text-primary" href="/" itemprop="url">
-        <span itemprop="name">Strona Główna</span>
-      </a>
-    </li>
+  <script src="/js/main.167be8b17caa0597d70f6b0a54edacaa30a1bc2f1d8339752f5ec20e3bc1f77e.js" defer></script></head>
+
+  <body>
+    <header>
   
-    <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-      <a class=" block py-2 transition-colors hover:text-primary" href="/about/" itemprop="url">
-        <span itemprop="name">O mnie</span>
-      </a>
-    </li>
-    <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-      <a class=" block py-2 transition-colors hover:text-primary" href="/kontakt/" itemprop="url">
-        <span itemprop="name">Kontakt</span>
-      </a>
-    </li>
-</ul>
-</div>
-  </div>
+    <a class="btn btn-square" href="/" title="Strona Główna">
+      <svg width="24" height="24" data-slot="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"></path>
+      </svg>
+    </a>
+  
+  
+    <ul>
+      <li>
+        <button class="btn btn-square group" id="menu-toggle" aria-expanded="false" type="button" title="">
+          <svg class="group-aria-expanded:hidden" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path clip-rule="evenodd" fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"></path>
+          </svg>
+          <svg class="hidden group-aria-expanded:block" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path clip-rule="evenodd" fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"></path>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  
 </header>
-<main class="mx-auto w-full max-w-screen-3xl grow">
-  <div class="mx-auto mb-16 mt-9 max-w-screen-lg px-6 text-center">
-    <h1 class="text-3xl font-semibold md:text-4xl">Self</h1>
-    
-  </div>
 
-<div class="mb-12 mt-9 sm:px-6">
-  <div class="fj-gallery" style="visibility: hidden; height: 650px;">
+  <menu class="hidden" id="menu">
     
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/Z2.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/Z2.png"
-          data-pswp-src="/self/Z2_hu1c76c7678d5886c47d05c7e68c815828_22570304_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1385"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#1b1c1d'; aspect-ratio: '693' / '800'">
-          <img
-            width="693"
-            height="800"
-            class="lazyload"
-            data-src="/self/Z2_hu1c76c7678d5886c47d05c7e68c815828_22570304_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/Z2.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
+      <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <a aria-current="false" href="/about/" itemprop="url">
+          <span itemprop="name">O mnie</span>
         </a>
-      
+      </li>
     
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/Walky.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/Walky.png"
-          data-pswp-src="/self/Walky_hu227a736ec9e785d963e975fddbeb43b9_20805127_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#444648'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/self/Walky_hu227a736ec9e785d963e975fddbeb43b9_20805127_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/Walky.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
+      <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <a aria-current="false" href="/kontakt/" itemprop="url">
+          <span itemprop="name">Kontakt</span>
         </a>
-      
+      </li>
     
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/P1070375-2.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/P1070375-2.png"
-          data-pswp-src="/self/P1070375-2_hu4ec9057eba6bd4ad9222568889f4dc79_25811974_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1286"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#1c2222'; aspect-ratio: '643' / '800'">
-          <img
-            width="643"
-            height="800"
-            class="lazyload"
-            data-src="/self/P1070375-2_hu4ec9057eba6bd4ad9222568889f4dc79_25811974_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/P1070375-2.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/P1024965.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/P1024965.jpg"
-          data-pswp-src="/self/P1024965_huee1e71cef001583b547c24cbf4f4a990_2380378_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#2d2d32'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/self/P1024965_huee1e71cef001583b547c24cbf4f4a990_2380378_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/P1024965.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/P1024945.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/P1024945.jpg"
-          data-pswp-src="/self/P1024945_hude94856716f5ba508b2ab6fc72fcb479_1911966_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#1b1513'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/self/P1024945_hude94856716f5ba508b2ab6fc72fcb479_1911966_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/P1024945.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/P1024910-2.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/P1024910-2.jpg"
-          data-pswp-src="/self/P1024910-2_hu22b7c9ca778f72d4eaa79a98e8924240_1193390_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#232122'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/self/P1024910-2_hu22b7c9ca778f72d4eaa79a98e8924240_1193390_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/P1024910-2.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/P1024900.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/P1024900.jpg"
-          data-pswp-src="/self/P1024900_hu813d65ea49d73efc656b4c52323a8390_4652354_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1600"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#271f1c'; aspect-ratio: '800' / '800'">
-          <img
-            width="800"
-            height="800"
-            class="lazyload"
-            data-src="/self/P1024900_hu813d65ea49d73efc656b4c52323a8390_4652354_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/P1024900.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/P1024835.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/P1024835.jpg"
-          data-pswp-src="/self/P1024835_huaecef877b9c338c058ad114e2ec6f5ad_1090131_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#362e2a'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/self/P1024835_huaecef877b9c338c058ad114e2ec6f5ad_1090131_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/P1024835.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/P1002525.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/P1002525.png"
-          data-pswp-src="/self/P1002525_hu49f30f404d5a746b0266cbad77da1975_90801516_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#100e0a'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/self/P1002525_hu49f30f404d5a746b0266cbad77da1975_90801516_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/P1002525.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/P1001566-2.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/P1001566-2.png"
-          data-pswp-src="/self/P1001566-2_huc317e104ad9955e70c362b186f3420d3_92574247_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1074"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#1c190e'; aspect-ratio: '537' / '800'">
-          <img
-            width="537"
-            height="800"
-            class="lazyload"
-            data-src="/self/P1001566-2_huc317e104ad9955e70c362b186f3420d3_92574247_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/P1001566-2.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/20230920_145726.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/20230920_145726.jpg"
-          data-pswp-src="/self/20230920_145726_hue153ccbff93cbdecdabe08165e60964a_1488499_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#c1c8c4'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/self/20230920_145726_hue153ccbff93cbdecdabe08165e60964a_1488499_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/20230920_145726.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/20230920_144926.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/20230920_144926.jpg"
-          data-pswp-src="/self/20230920_144926_hu26c3d2f563ef952446a630b85b746031_1370410_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#a1aeb5'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/self/20230920_144926_hu26c3d2f563ef952446a630b85b746031_1370410_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/20230920_144926.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/20230920_143549.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/20230920_143549.jpg"
-          data-pswp-src="/self/20230920_143549_hu7c14fc7e750af1d934b8e6c831da01b6_775138_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1359"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#323432'; aspect-ratio: '679' / '800'">
-          <img
-            width="679"
-            height="800"
-            class="lazyload"
-            data-src="/self/20230920_143549_hu7c14fc7e750af1d934b8e6c831da01b6_775138_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/20230920_143549.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/20230304_172851.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/20230304_172851.png"
-          data-pswp-src="/self/20230304_172851_hub6a6ac57c1a065e60d07fe3eeac6dd64_2842993_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1600"
-          data-pswp-height="1570"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#443d3e'; aspect-ratio: '800' / '785'">
-          <img
-            width="800"
-            height="785"
-            class="lazyload"
-            data-src="/self/20230304_172851_hub6a6ac57c1a065e60d07fe3eeac6dd64_2842993_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/20230304_172851.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/20230221_132037.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/20230221_132037.png"
-          data-pswp-src="/self/20230221_132037_hu76dbaf14367d755fdcce119640f5e1e3_1922106_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1600"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#231c1e'; aspect-ratio: '800' / '800'">
-          <img
-            width="800"
-            height="800"
-            class="lazyload"
-            data-src="/self/20230221_132037_hu76dbaf14367d755fdcce119640f5e1e3_1922106_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/20230221_132037.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/101_2689.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/101_2689.jpg"
-          data-pswp-src="/self/101_2689_hued188f6fb919e9675946e4dc66827df7_194184_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#0b0c0f'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/self/101_2689_hued188f6fb919e9675946e4dc66827df7_194184_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/101_2689.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/self/101_1820.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/self/101_1820.jpg"
-          data-pswp-src="/self/101_1820_hu5e0e875521c03654a24574f6d568061b_224261_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1240"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#101010'; aspect-ratio: '620' / '800'">
-          <img
-            width="620"
-            height="800"
-            class="lazyload"
-            data-src="/self/101_1820_hu5e0e875521c03654a24574f6d568061b_224261_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/self/101_1820.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-  </div>
-</div>
+  </menu>
 
-    </main><footer class="mx-auto mb-10 mt-4 flex max-w-screen-3xl flex-none flex-wrap justify-center px-6 text-center text-sm text-secondary" style="font-size: 20px; text-decoration: underline; ">
-    <span class="m-2">
-      <a>2023-2024 © Jakub Matyjaszek</a>
-    </span>
+
+
+    <main>
+      
   
+  <hgroup>
+    <h1>Self</h1>
     
-      <ul class="my-2 flex flex-wrap justify-center">
-        
-          <li>
-            <a href="/kontakt/" class="mx-2" target="_blank">
-              Kontakt
-            </a>
-          </li>
-        
-          <li>
-            <a href="https://instagram.com/barokos_designer" class="mx-2" target="_blank">
-              Instagram
-            </a>
-          </li>
-        
-      </ul>
+  </hgroup>
+
+
+  <section class="gallery">
+  <div id="gallery" style="visibility: hidden; height: 1px; overflow: hidden">
     
-  </footer>
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/Z2.png" data-pswp-src="/self/Z2_hu1c76c7678d5886c47d05c7e68c815828_22570304_filter_10933573887768330671.png" data-pswp-width="1385" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 519 / 600">
+        <img loading="lazy" width="519" height="600" src="/self/Z2_hu1c76c7678d5886c47d05c7e68c815828_22570304_filter_6331161270205693318.png" style="background-color: #1b1c1d" alt="" />
+        <meta itemprop="contentUrl" content="/self/Z2.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/Walky.png" data-pswp-src="/self/Walky_hu227a736ec9e785d963e975fddbeb43b9_20805127_filter_10933573887768330671.png" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/self/Walky_hu227a736ec9e785d963e975fddbeb43b9_20805127_filter_6331161270205693318.png" style="background-color: #444648" alt="" />
+        <meta itemprop="contentUrl" content="/self/Walky.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/P1070375-2.png" data-pswp-src="/self/P1070375-2_hu4ec9057eba6bd4ad9222568889f4dc79_25811974_filter_10933573887768330671.png" data-pswp-width="1286" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 482 / 600">
+        <img loading="lazy" width="482" height="600" src="/self/P1070375-2_hu4ec9057eba6bd4ad9222568889f4dc79_25811974_filter_6331161270205693318.png" style="background-color: #1c2222" alt="" />
+        <meta itemprop="contentUrl" content="/self/P1070375-2.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/P1024965.jpg" data-pswp-src="/self/P1024965_huee1e71cef001583b547c24cbf4f4a990_2380378_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/self/P1024965_huee1e71cef001583b547c24cbf4f4a990_2380378_filter_6331161270205693318.jpg" style="background-color: #2d2d32" alt="" />
+        <meta itemprop="contentUrl" content="/self/P1024965.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/P1024945.jpg" data-pswp-src="/self/P1024945_hude94856716f5ba508b2ab6fc72fcb479_1911966_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/self/P1024945_hude94856716f5ba508b2ab6fc72fcb479_1911966_filter_6331161270205693318.jpg" style="background-color: #1b1513" alt="" />
+        <meta itemprop="contentUrl" content="/self/P1024945.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/P1024910-2.jpg" data-pswp-src="/self/P1024910-2_hu22b7c9ca778f72d4eaa79a98e8924240_1193390_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/self/P1024910-2_hu22b7c9ca778f72d4eaa79a98e8924240_1193390_filter_6331161270205693318.jpg" style="background-color: #232122" alt="" />
+        <meta itemprop="contentUrl" content="/self/P1024910-2.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/P1024900.jpg" data-pswp-src="/self/P1024900_hu813d65ea49d73efc656b4c52323a8390_4652354_filter_10933573887768330671.jpg" data-pswp-width="1600" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 600">
+        <img loading="lazy" width="600" height="600" src="/self/P1024900_hu813d65ea49d73efc656b4c52323a8390_4652354_filter_6331161270205693318.jpg" style="background-color: #271f1c" alt="" />
+        <meta itemprop="contentUrl" content="/self/P1024900.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/P1024835.jpg" data-pswp-src="/self/P1024835_huaecef877b9c338c058ad114e2ec6f5ad_1090131_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/self/P1024835_huaecef877b9c338c058ad114e2ec6f5ad_1090131_filter_6331161270205693318.jpg" style="background-color: #372e2a" alt="" />
+        <meta itemprop="contentUrl" content="/self/P1024835.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/P1002525.png" data-pswp-src="/self/P1002525_hu49f30f404d5a746b0266cbad77da1975_90801516_filter_10933573887768330671.png" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/self/P1002525_hu49f30f404d5a746b0266cbad77da1975_90801516_filter_6331161270205693318.png" style="background-color: #100e0a" alt="" />
+        <meta itemprop="contentUrl" content="/self/P1002525.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/P1001566-2.png" data-pswp-src="/self/P1001566-2_huc317e104ad9955e70c362b186f3420d3_92574247_filter_10933573887768330671.png" data-pswp-width="1074" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 403 / 600">
+        <img loading="lazy" width="403" height="600" src="/self/P1001566-2_huc317e104ad9955e70c362b186f3420d3_92574247_filter_6331161270205693318.png" style="background-color: #1c190e" alt="" />
+        <meta itemprop="contentUrl" content="/self/P1001566-2.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/20230920_145726.jpg" data-pswp-src="/self/20230920_145726_hue153ccbff93cbdecdabe08165e60964a_1488499_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/self/20230920_145726_hue153ccbff93cbdecdabe08165e60964a_1488499_filter_6331161270205693318.jpg" style="background-color: #c1c8c4" alt="" />
+        <meta itemprop="contentUrl" content="/self/20230920_145726.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/20230920_144926.jpg" data-pswp-src="/self/20230920_144926_hu26c3d2f563ef952446a630b85b746031_1370410_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/self/20230920_144926_hu26c3d2f563ef952446a630b85b746031_1370410_filter_6331161270205693318.jpg" style="background-color: #a1aeb5" alt="" />
+        <meta itemprop="contentUrl" content="/self/20230920_144926.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/20230920_143549.jpg" data-pswp-src="/self/20230920_143549_hu7c14fc7e750af1d934b8e6c831da01b6_775138_filter_10933573887768330671.jpg" data-pswp-width="1359" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 510 / 600">
+        <img loading="lazy" width="510" height="600" src="/self/20230920_143549_hu7c14fc7e750af1d934b8e6c831da01b6_775138_filter_6331161270205693318.jpg" style="background-color: #323432" alt="" />
+        <meta itemprop="contentUrl" content="/self/20230920_143549.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/20230304_172851.png" data-pswp-src="/self/20230304_172851_hub6a6ac57c1a065e60d07fe3eeac6dd64_2842993_filter_10933573887768330671.png" data-pswp-width="1600" data-pswp-height="1570" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 589">
+        <img loading="lazy" width="600" height="589" src="/self/20230304_172851_hub6a6ac57c1a065e60d07fe3eeac6dd64_2842993_filter_6331161270205693318.png" style="background-color: #443d3e" alt="" />
+        <meta itemprop="contentUrl" content="/self/20230304_172851.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/20230221_132037.png" data-pswp-src="/self/20230221_132037_hu76dbaf14367d755fdcce119640f5e1e3_1922106_filter_10933573887768330671.png" data-pswp-width="1600" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 600">
+        <img loading="lazy" width="600" height="600" src="/self/20230221_132037_hu76dbaf14367d755fdcce119640f5e1e3_1922106_filter_6331161270205693318.png" style="background-color: #231c1e" alt="" />
+        <meta itemprop="contentUrl" content="/self/20230221_132037.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/101_2689.jpg" data-pswp-src="/self/101_2689_hued188f6fb919e9675946e4dc66827df7_194184_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/self/101_2689_hued188f6fb919e9675946e4dc66827df7_194184_filter_6331161270205693318.jpg" style="background-color: #0b0c0f" alt="" />
+        <meta itemprop="contentUrl" content="/self/101_2689.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/self/101_1820.jpg" data-pswp-src="/self/101_1820_hu5e0e875521c03654a24574f6d568061b_224261_filter_10933573887768330671.jpg" data-pswp-width="1240" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 465 / 600">
+        <img loading="lazy" width="465" height="600" src="/self/101_1820_hu5e0e875521c03654a24574f6d568061b_224261_filter_6331161270205693318.jpg" style="background-color: #101010" alt="" />
+        <meta itemprop="contentUrl" content="/self/101_1820.jpg" />
+        
+      </a>
+    
+  </div>
+</section>
+
+  
+
+
+
+    </main>
+    <footer>
+  
+
+  <section>
+    2023-2024 © Jakub Matyjaszek
+    
+      <a href="/kontakt/">
+        Kontakt
+      </a>
+    
+      <a href="https://instagram.com/barokos_designer">
+        Instagram
+      </a>
+    
+  </section>
+</footer>
+
   </body>
 </html>

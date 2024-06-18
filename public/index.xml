@@ -2,72 +2,63 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Strona Główna on Barokos Designer</title>
-    <link>http://localhost:1313/</link>
+    <link>https://barokos.github.io/</link>
     <description>Recent content in Strona Główna on Barokos Designer</description>
-    
+    <generator>Hugo -- gohugo.io</generator>
     <language>pl-PL</language>
-    <copyright>2023-2024 © Jakub Matyjaszek</copyright><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+    <copyright>2023-2024 © Jakub Matyjaszek</copyright><atom:link href="https://barokos.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
       <title>Grafika</title>
-      <link>http://localhost:1313/grafika/</link>
+      <link>https://barokos.github.io/grafika/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/grafika/</guid><media:content url="http://localhost:1313/grafika/LOGO2_3_hu348398b9eaffa7a68de31c7e7754894c_1609965_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
+      <guid>https://barokos.github.io/grafika/</guid><media:content url="https://barokos.github.io/grafika/LOGO2_3_hu348398b9eaffa7a68de31c7e7754894c_1609965_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/grafika/LOGO2_3_hu348398b9eaffa7a68de31c7e7754894c_1609965_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
+          &lt;img src=&quot;https://barokos.github.io/grafika/LOGO2_3_hu348398b9eaffa7a68de31c7e7754894c_1609965_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
           &lt;p&gt;&lt;/p&gt;
-        </description></item><item>
+        </description></item>
+    <item>
       <title>Horror</title>
-      <link>http://localhost:1313/horror/</link>
+      <link>https://barokos.github.io/horror/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/horror/</guid><media:content url="http://localhost:1313/horror/101_0357-2_hu617622cba22cdd52d90ee0f801b71a83_1653401_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
+      <guid>https://barokos.github.io/horror/</guid><media:content url="https://barokos.github.io/horror/101_0357-2_hu617622cba22cdd52d90ee0f801b71a83_1653401_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/horror/101_0357-2_hu617622cba22cdd52d90ee0f801b71a83_1653401_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
+          &lt;img src=&quot;https://barokos.github.io/horror/101_0357-2_hu617622cba22cdd52d90ee0f801b71a83_1653401_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
           &lt;p&gt;&lt;/p&gt;
-        </description></item><item>
+        </description></item>
+    <item>
       <title>Luxury</title>
-      <link>http://localhost:1313/luxury/</link>
+      <link>https://barokos.github.io/luxury/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/luxury/</guid><media:content url="http://localhost:1313/luxury/P1002494-2_hu7e65f8db7be59e7b174e90067f9f313c_101324221_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
+      <guid>https://barokos.github.io/luxury/</guid><media:content url="https://barokos.github.io/luxury/P1002494-2_hu7e65f8db7be59e7b174e90067f9f313c_101324221_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/luxury/P1002494-2_hu7e65f8db7be59e7b174e90067f9f313c_101324221_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
+          &lt;img src=&quot;https://barokos.github.io/luxury/P1002494-2_hu7e65f8db7be59e7b174e90067f9f313c_101324221_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
           &lt;p&gt;&lt;/p&gt;
-        </description></item><item>
+        </description></item>
+    <item>
       <title>Miasto</title>
-      <link>http://localhost:1313/miasto/</link>
+      <link>https://barokos.github.io/miasto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/miasto/</guid><media:content url="http://localhost:1313/miasto/101_0894_hubcae28cef443c32d9f34905712499b1f_670487_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
+      <guid>https://barokos.github.io/miasto/</guid><media:content url="https://barokos.github.io/miasto/101_0894_hubcae28cef443c32d9f34905712499b1f_670487_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/miasto/101_0894_hubcae28cef443c32d9f34905712499b1f_670487_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
+          &lt;img src=&quot;https://barokos.github.io/miasto/101_0894_hubcae28cef443c32d9f34905712499b1f_670487_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
           &lt;p&gt;&lt;/p&gt;
-        </description></item><item>
+        </description></item>
+    <item>
       <title>Motoryzacja</title>
-      <link>http://localhost:1313/motoryzacja/</link>
+      <link>https://barokos.github.io/motoryzacja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/motoryzacja/</guid><media:content url="http://localhost:1313/motoryzacja/P1083208_hub2d1064cd7d92a6740fe266883c91794_5714688_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
+      <guid>https://barokos.github.io/motoryzacja/</guid><media:content url="https://barokos.github.io/motoryzacja/P1083208_hub2d1064cd7d92a6740fe266883c91794_5714688_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/motoryzacja/P1083208_hub2d1064cd7d92a6740fe266883c91794_5714688_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
+          &lt;img src=&quot;https://barokos.github.io/motoryzacja/P1083208_hub2d1064cd7d92a6740fe266883c91794_5714688_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
           &lt;p&gt;&lt;/p&gt;
-        </description></item><item>
-      <title>Self</title>
-      <link>http://localhost:1313/self/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/self/</guid><media:content url="http://localhost:1313/self/P1070375-2_hu4ec9057eba6bd4ad9222568889f4dc79_25811974_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;http://localhost:1313/self/P1070375-2_hu4ec9057eba6bd4ad9222568889f4dc79_25811974_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
-          &lt;p&gt;&lt;/p&gt;
-        </description></item><item>
+        </description></item>
+    <item>
       <title>Wiedeń</title>
-      <link>http://localhost:1313/wieden/</link>
+      <link>https://barokos.github.io/wieden/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/wieden/</guid><media:content url="http://localhost:1313/wieden/P1037213_hu019adccfffed2c39745dbb73d1403445_3167397_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
+      <guid>https://barokos.github.io/wieden/</guid><media:content url="https://barokos.github.io/wieden/P1037213_hu019adccfffed2c39745dbb73d1403445_3167397_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/wieden/P1037213_hu019adccfffed2c39745dbb73d1403445_3167397_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
+          &lt;img src=&quot;https://barokos.github.io/wieden/P1037213_hu019adccfffed2c39745dbb73d1403445_3167397_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
           &lt;p&gt;&lt;/p&gt;
         </description></item>
   </channel>

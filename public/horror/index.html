@@ -1,1167 +1,576 @@
 <!doctype html>
-<html lang="pl-PL" class="dark h-full"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html class="dark" lang="pl-PL">
+  <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <title>Horror – Barokos Designer</title>
-  <link rel="canonical" href="http://localhost:1313/horror/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Horror - Barokos Designer</title>
+  <link rel="canonical" href="https://barokos.github.io/horror/" />
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
   <link rel="icon" type="image/png" href="/images/favicon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
-  <link rel="preload" href="/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin="anonymous" integrity="sha256-ive9W1RVZ63/s9/Otb7bNTpSLXvxs6K4r3tgZBVrq8A=" />
   <meta name="description" content="Strona" />
-  <meta name="generator" content="Hugo 0.127.0">
+  
+  
+    <meta name="robots" content="index, follow" />
   
   <meta property="og:title" content="Horror" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/horror/" /><meta property="og:image" content="http://localhost:1313/horror/101_0357-2.jpg" /><meta property="article:section" content="" />
+<meta property="og:url" content="https://barokos.github.io/horror/" /><meta property="og:image" content="https://barokos.github.io/horror/101_0357-2.jpg" /><meta property="article:section" content="" />
   
   <meta property="og:site_name" content="Barokos Designer" />
 
   
-  <link rel="stylesheet" href="/css/main.min.a53aea67941685bcf9072890b6f68685eed2360e69dbb88706f4ca2806cccfb0.css" />
+  <link rel="stylesheet" href="/css/main.min.5246b5ca2af2b7f7e15a3795a27895afb4521425a19dc961a4728a741d74a414.css" />
   
-  <script src="/js/main.508c0883ed566525f634260ca62549328ac0f73837b2a77454df3184151db99b.js" defer></script>
-</head>
-<body class="flex min-h-full flex-col bg-background text-primary antialiased"><header class="w-full">
-  <div class="mx-auto flex max-w-screen-3xl flex-wrap justify-between px-6" x-data="{ expanded: false }">
-    <div class="flex h-16 w-full justify-between">
-      
-      
-        
-          
-        
-        
-          <a class="-ms-4 inline-flex items-center px-3 py-5 text-xl font-medium" href="/" title="Strona Główna">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
-            </svg>
-          </a>
-        
-      
-
-
-      <button @click="expanded = !expanded" type="button" class="group -me-4 ml-3 inline-flex items-center p-3 text-s" title="">
-        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-show="!expanded">
-          <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-        </svg>
-        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-cloak="x-cloak" x-show="expanded">
-          <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-        </svg>
-      </button>
-    </div>
-
-    <div x-cloak x-show="expanded" x-collapse class="w-full"><ul class="my-12 text-center text-xl font-medium text-secondary">
   
-    <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-      <a class=" block py-2 transition-colors hover:text-primary" href="/" itemprop="url">
-        <span itemprop="name">Strona Główna</span>
-      </a>
-    </li>
+  <script src="/js/main.167be8b17caa0597d70f6b0a54edacaa30a1bc2f1d8339752f5ec20e3bc1f77e.js" defer></script></head>
+
+  <body>
+    <header>
   
-    <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-      <a class=" block py-2 transition-colors hover:text-primary" href="/about/" itemprop="url">
-        <span itemprop="name">O mnie</span>
-      </a>
-    </li>
-    <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-      <a class=" block py-2 transition-colors hover:text-primary" href="/kontakt/" itemprop="url">
-        <span itemprop="name">Kontakt</span>
-      </a>
-    </li>
-</ul>
-</div>
-  </div>
+    <a class="btn btn-square" href="/" title="Strona Główna">
+      <svg width="24" height="24" data-slot="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"></path>
+      </svg>
+    </a>
+  
+  
+    <ul>
+      <li>
+        <button class="btn btn-square group" id="menu-toggle" aria-expanded="false" type="button" title="">
+          <svg class="group-aria-expanded:hidden" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path clip-rule="evenodd" fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"></path>
+          </svg>
+          <svg class="hidden group-aria-expanded:block" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path clip-rule="evenodd" fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"></path>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  
 </header>
-<main class="mx-auto w-full max-w-screen-3xl grow">
-  <div class="mx-auto mb-16 mt-9 max-w-screen-lg px-6 text-center">
-    <h1 class="text-3xl font-semibold md:text-4xl">Horror</h1>
-    
-  </div>
 
-<div class="mb-12 mt-9 sm:px-6">
-  <div class="fj-gallery" style="visibility: hidden; height: 650px;">
+  <menu class="hidden" id="menu">
     
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/Trwoga1.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/Trwoga1.png"
-          data-pswp-src="/horror/Trwoga1_hu096c1592e3204aa3f975142dbe290174_17147248_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1600"
-          data-pswp-height="1198"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#485159'; aspect-ratio: '800' / '599'">
-          <img
-            width="800"
-            height="599"
-            class="lazyload"
-            data-src="/horror/Trwoga1_hu096c1592e3204aa3f975142dbe290174_17147248_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/Trwoga1.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
+      <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <a aria-current="false" href="/about/" itemprop="url">
+          <span itemprop="name">O mnie</span>
         </a>
-      
+      </li>
     
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/Owad.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/Owad.jpg"
-          data-pswp-src="/horror/Owad_hu7ac56d26f60abff0e427f2030c4678e2_310556_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#15100e'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/Owad_hu7ac56d26f60abff0e427f2030c4678e2_310556_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/Owad.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
+      <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <a aria-current="false" href="/kontakt/" itemprop="url">
+          <span itemprop="name">Kontakt</span>
         </a>
-      
+      </li>
     
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/OM.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/OM.jpg"
-          data-pswp-src="/horror/OM_hua81efc1ac264ac1a823dbbdf63d89cfe_247953_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1600"
-          data-pswp-height="1200"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#1f140f'; aspect-ratio: '800' / '600'">
-          <img
-            width="800"
-            height="600"
-            class="lazyload"
-            data-src="/horror/OM_hua81efc1ac264ac1a823dbbdf63d89cfe_247953_800x800_fit_q75_catmullrom.jpg"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/OM.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/Angel_2.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/Angel_2.png"
-          data-pswp-src="/horror/Angel_2_huba78817b7cdc49d3d211ea2ce6a817f6_16039925_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#3b3b3b'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/Angel_2_huba78817b7cdc49d3d211ea2ce6a817f6_16039925_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/Angel_2.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/20221001_143408.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/20221001_143408.png"
-          data-pswp-src="/horror/20221001_143408_hu9616f55bb8ef395a5942cc743fb7b9b2_55608567_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#31272a'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/20221001_143408_hu9616f55bb8ef395a5942cc743fb7b9b2_55608567_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/20221001_143408.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/20221001_141403-2.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/20221001_141403-2.png"
-          data-pswp-src="/horror/20221001_141403-2_hu1a19d8e279f4153fc52fe037968bdd04_77406434_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: 'transparent'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/20221001_141403-2_hu1a19d8e279f4153fc52fe037968bdd04_77406434_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/20221001_141403-2.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/20221001_140905.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/20221001_140905.png"
-          data-pswp-src="/horror/20221001_140905_hu9616f55bb8ef395a5942cc743fb7b9b2_58218385_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#1f2828'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/20221001_140905_hu9616f55bb8ef395a5942cc743fb7b9b2_58218385_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/20221001_140905.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/20221001_140855.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/20221001_140855.png"
-          data-pswp-src="/horror/20221001_140855_hu9616f55bb8ef395a5942cc743fb7b9b2_55388273_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#313639'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/20221001_140855_hu9616f55bb8ef395a5942cc743fb7b9b2_55388273_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/20221001_140855.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_3876.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_3876.png"
-          data-pswp-src="/horror/101_3876_hub9b3b77251bbfc0319109cb861eec078_29990232_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#3a4549'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/101_3876_hub9b3b77251bbfc0319109cb861eec078_29990232_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_3876.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_3857_3.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_3857_3.png"
-          data-pswp-src="/horror/101_3857_3_hu10ffcfc28f1660e6a138ea7090d66590_8448791_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#3e3e3e'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/101_3857_3_hu10ffcfc28f1660e6a138ea7090d66590_8448791_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_3857_3.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_3775.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_3775.jpg"
-          data-pswp-src="/horror/101_3775_hu744eb30fca0d4bf6f90c49ea3823af7b_370841_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#0e0504'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/101_3775_hu744eb30fca0d4bf6f90c49ea3823af7b_370841_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_3775.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_3380_2.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_3380_2.png"
-          data-pswp-src="/horror/101_3380_2_hu1ff5701b456f8205f7a28b9ac58c8272_19186468_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#ededed'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/101_3380_2_hu1ff5701b456f8205f7a28b9ac58c8272_19186468_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_3380_2.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_3377.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_3377.jpg"
-          data-pswp-src="/horror/101_3377_huae0ab833b874b05310cbdef9c2b2a8bc_247314_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#192020'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/101_3377_huae0ab833b874b05310cbdef9c2b2a8bc_247314_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_3377.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_2350.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_2350.jpg"
-          data-pswp-src="/horror/101_2350_hu1c3734a24260dca822254b6a7599152c_247250_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#343a3d'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/101_2350_hu1c3734a24260dca822254b6a7599152c_247250_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_2350.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_2295.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_2295.jpg"
-          data-pswp-src="/horror/101_2295_hu7d63c7fcff593d9eed1871b0a7c89437_371000_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1600"
-          data-pswp-height="1200"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#433f43'; aspect-ratio: '800' / '600'">
-          <img
-            width="800"
-            height="600"
-            class="lazyload"
-            data-src="/horror/101_2295_hu7d63c7fcff593d9eed1871b0a7c89437_371000_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_2295.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_2294.png"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_2294.png"
-          data-pswp-src="/horror/101_2294_hu5cd173aabd48b3bfcf6be1aa4338191e_16688878_1600x1600_fit_catmullrom_3.png"
-          data-pswp-width="1600"
-          data-pswp-height="1200"
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#2d3133'; aspect-ratio: '800' / '600'">
-          <img
-            width="800"
-            height="600"
-            class="lazyload"
-            data-src="/horror/101_2294_hu5cd173aabd48b3bfcf6be1aa4338191e_16688878_800x800_fit_catmullrom_3.png"
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_2294.png" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_2190.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_2190.jpg"
-          data-pswp-src="/horror/101_2190_huaf3ca68bd8d0fb97af907b2d338bbf6c_843498_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1600"
-          data-pswp-height="1200"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#22222b'; aspect-ratio: '800' / '600'">
-          <img
-            width="800"
-            height="600"
-            class="lazyload"
-            data-src="/horror/101_2190_huaf3ca68bd8d0fb97af907b2d338bbf6c_843498_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_2190.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_1261.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_1261.jpg"
-          data-pswp-src="/horror/101_1261_hu8bb75c54ae6e60fd5d04b5aa048a39e7_885090_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1600"
-          data-pswp-height="1200"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#20292a'; aspect-ratio: '800' / '600'">
-          <img
-            width="800"
-            height="600"
-            class="lazyload"
-            data-src="/horror/101_1261_hu8bb75c54ae6e60fd5d04b5aa048a39e7_885090_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_1261.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_1243.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_1243.jpg"
-          data-pswp-src="/horror/101_1243_hu14cc6bc7f8366df86404a3736f553462_274903_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#242c2e'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/101_1243_hu14cc6bc7f8366df86404a3736f553462_274903_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_1243.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_0816.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_0816.jpg"
-          data-pswp-src="/horror/101_0816_hu0ee00d3c92fcab7d47be00cfafd72aad_209162_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#240701'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/101_0816_hu0ee00d3c92fcab7d47be00cfafd72aad_209162_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_0816.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_0760.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_0760.jpg"
-          data-pswp-src="/horror/101_0760_hu319534676ec0e5878239fd804f02a5d5_585481_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1600"
-          data-pswp-height="1200"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#192222'; aspect-ratio: '800' / '600'">
-          <img
-            width="800"
-            height="600"
-            class="lazyload"
-            data-src="/horror/101_0760_hu319534676ec0e5878239fd804f02a5d5_585481_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_0760.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_0740.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_0740.jpg"
-          data-pswp-src="/horror/101_0740_hu98d9e7a66cfa88b333c2cc6e0709a41e_498785_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1600"
-          data-pswp-height="1200"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#283132'; aspect-ratio: '800' / '600'">
-          <img
-            width="800"
-            height="600"
-            class="lazyload"
-            data-src="/horror/101_0740_hu98d9e7a66cfa88b333c2cc6e0709a41e_498785_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_0740.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_0583.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_0583.jpg"
-          data-pswp-src="/horror/101_0583_hubb9f9d37b432b0afc816b429f9c41254_861485_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1600"
-          data-pswp-height="1200"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#31292a'; aspect-ratio: '800' / '600'">
-          <img
-            width="800"
-            height="600"
-            class="lazyload"
-            data-src="/horror/101_0583_hubb9f9d37b432b0afc816b429f9c41254_861485_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_0583.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_0569.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_0569.jpg"
-          data-pswp-src="/horror/101_0569_hu16f95d5fcf54fc58e7690211e1a15bd9_368804_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1200"
-          data-pswp-height="1600"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#251a1b'; aspect-ratio: '600' / '800'">
-          <img
-            width="600"
-            height="800"
-            class="lazyload"
-            data-src="/horror/101_0569_hu16f95d5fcf54fc58e7690211e1a15bd9_368804_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_0569.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_0369-2.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_0369-2.jpg"
-          data-pswp-src="/horror/101_0369-2_huf59eef462fbbb590be25d577cafa369a_1196686_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1600"
-          data-pswp-height="1200"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#0c110b'; aspect-ratio: '800' / '600'">
-          <img
-            width="800"
-            height="600"
-            class="lazyload"
-            data-src="/horror/101_0369-2_huf59eef462fbbb590be25d577cafa369a_1196686_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_0369-2.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-      
-        
-        
-          
-        
-        
-        
-        
-        
-        
-        <a
-          href="/horror/101_0357-2.jpg"
-          class="fj-gallery-item cursor-zoom-in"
-          data-src="/horror/101_0357-2.jpg"
-          data-pswp-src="/horror/101_0357-2_hu617622cba22cdd52d90ee0f801b71a83_1653401_1600x1600_fit_q75_catmullrom.jpg"
-          data-pswp-width="1600"
-          data-pswp-height="1200"
-          
-            
-              title="KODAK Digital Still Camera"
-            
-          
-          itemscope
-          itemtype="https://schema.org/ImageObject"
-          style="background-color: '#4b4241'; aspect-ratio: '800' / '600'">
-          <img
-            width="800"
-            height="600"
-            class="lazyload"
-            data-src="/horror/101_0357-2_hu617622cba22cdd52d90ee0f801b71a83_1653401_800x800_fit_q75_catmullrom.jpg"
-            
-              
-                alt="KODAK Digital Still Camera"
-              
-            
-          />
-          <meta itemprop="contentUrl" content="/horror/101_0357-2.jpg" />
-          
-            <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
-              <meta itemprop="name" content="Jakub Matyjaszek" />
-            </span>
-          
-        </a>
-      
-    
-  </div>
-</div>
+  </menu>
 
-    </main><footer class="mx-auto mb-10 mt-4 flex max-w-screen-3xl flex-none flex-wrap justify-center px-6 text-center text-sm text-secondary" style="font-size: 20px; text-decoration: underline; ">
-    <span class="m-2">
-      <a>2023-2024 © Jakub Matyjaszek</a>
-    </span>
+
+
+    <main>
+      
   
+  <hgroup>
+    <h1>Horror</h1>
     
-      <ul class="my-2 flex flex-wrap justify-center">
-        
-          <li>
-            <a href="/kontakt/" class="mx-2" target="_blank">
-              Kontakt
-            </a>
-          </li>
-        
-          <li>
-            <a href="https://instagram.com/barokos_designer" class="mx-2" target="_blank">
-              Instagram
-            </a>
-          </li>
-        
-      </ul>
+  </hgroup>
+
+
+  <section class="gallery">
+  <div id="gallery" style="visibility: hidden; height: 1px; overflow: hidden">
     
-  </footer>
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+        
+          
+          
+        
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+        
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/Trwoga1.png" data-pswp-src="/horror/Trwoga1_hu096c1592e3204aa3f975142dbe290174_17147248_filter_10933573887768330671.png" data-pswp-width="1600" data-pswp-height="1198" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 449">
+        <img loading="lazy" width="600" height="449" src="/horror/Trwoga1_hu096c1592e3204aa3f975142dbe290174_17147248_filter_6331161270205693318.png" style="background-color: #485159" alt="" />
+        <meta itemprop="contentUrl" content="/horror/Trwoga1.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/Owad.jpg" data-pswp-src="/horror/Owad_hu7ac56d26f60abff0e427f2030c4678e2_310556_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/Owad_hu7ac56d26f60abff0e427f2030c4678e2_310556_filter_6331161270205693318.jpg" style="background-color: #15100e" alt="" />
+        <meta itemprop="contentUrl" content="/horror/Owad.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/OM.jpg" data-pswp-src="/horror/OM_hua81efc1ac264ac1a823dbbdf63d89cfe_247953_filter_10933573887768330671.jpg" data-pswp-width="1600" data-pswp-height="1200" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 450">
+        <img loading="lazy" width="600" height="450" src="/horror/OM_hua81efc1ac264ac1a823dbbdf63d89cfe_247953_filter_6331161270205693318.jpg" style="background-color: #1f140f" alt="" />
+        <meta itemprop="contentUrl" content="/horror/OM.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/Angel_2.png" data-pswp-src="/horror/Angel_2_huba78817b7cdc49d3d211ea2ce6a817f6_16039925_filter_10933573887768330671.png" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/Angel_2_huba78817b7cdc49d3d211ea2ce6a817f6_16039925_filter_6331161270205693318.png" style="background-color: #3b3b3b" alt="" />
+        <meta itemprop="contentUrl" content="/horror/Angel_2.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/20221001_143408.png" data-pswp-src="/horror/20221001_143408_hu9616f55bb8ef395a5942cc743fb7b9b2_55608567_filter_10933573887768330671.png" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/20221001_143408_hu9616f55bb8ef395a5942cc743fb7b9b2_55608567_filter_6331161270205693318.png" style="background-color: #32272b" alt="" />
+        <meta itemprop="contentUrl" content="/horror/20221001_143408.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/20221001_141403-2.png" data-pswp-src="/horror/20221001_141403-2_hu1a19d8e279f4153fc52fe037968bdd04_77406434_filter_10933573887768330671.png" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/20221001_141403-2_hu1a19d8e279f4153fc52fe037968bdd04_77406434_filter_6331161270205693318.png" style="background-color: #222a2a" alt="" />
+        <meta itemprop="contentUrl" content="/horror/20221001_141403-2.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/20221001_140905.png" data-pswp-src="/horror/20221001_140905_hu9616f55bb8ef395a5942cc743fb7b9b2_58218385_filter_10933573887768330671.png" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/20221001_140905_hu9616f55bb8ef395a5942cc743fb7b9b2_58218385_filter_6331161270205693318.png" style="background-color: #1f2828" alt="" />
+        <meta itemprop="contentUrl" content="/horror/20221001_140905.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/20221001_140855.png" data-pswp-src="/horror/20221001_140855_hu9616f55bb8ef395a5942cc743fb7b9b2_55388273_filter_10933573887768330671.png" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/20221001_140855_hu9616f55bb8ef395a5942cc743fb7b9b2_55388273_filter_6331161270205693318.png" style="background-color: #32373a" alt="" />
+        <meta itemprop="contentUrl" content="/horror/20221001_140855.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_3876.png" data-pswp-src="/horror/101_3876_hub9b3b77251bbfc0319109cb861eec078_29990232_filter_10933573887768330671.png" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/101_3876_hub9b3b77251bbfc0319109cb861eec078_29990232_filter_6331161270205693318.png" style="background-color: #3a4549" alt="" />
+        <meta itemprop="contentUrl" content="/horror/101_3876.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_3857_3.png" data-pswp-src="/horror/101_3857_3_hu10ffcfc28f1660e6a138ea7090d66590_8448791_filter_10933573887768330671.png" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/101_3857_3_hu10ffcfc28f1660e6a138ea7090d66590_8448791_filter_6331161270205693318.png" style="background-color: #3e3e3e" alt="" />
+        <meta itemprop="contentUrl" content="/horror/101_3857_3.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_3775.jpg" data-pswp-src="/horror/101_3775_hu744eb30fca0d4bf6f90c49ea3823af7b_370841_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/101_3775_hu744eb30fca0d4bf6f90c49ea3823af7b_370841_filter_6331161270205693318.jpg" style="background-color: #0e0505" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_3775.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_3380_2.png" data-pswp-src="/horror/101_3380_2_hu1ff5701b456f8205f7a28b9ac58c8272_19186468_filter_10933573887768330671.png" data-pswp-width="1200" data-pswp-height="1600" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/101_3380_2_hu1ff5701b456f8205f7a28b9ac58c8272_19186468_filter_6331161270205693318.png" style="background-color: #ececec" alt="" />
+        <meta itemprop="contentUrl" content="/horror/101_3380_2.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_3377.jpg" data-pswp-src="/horror/101_3377_huae0ab833b874b05310cbdef9c2b2a8bc_247314_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/101_3377_huae0ab833b874b05310cbdef9c2b2a8bc_247314_filter_6331161270205693318.jpg" style="background-color: #192020" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_3377.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_2350.jpg" data-pswp-src="/horror/101_2350_hu1c3734a24260dca822254b6a7599152c_247250_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/101_2350_hu1c3734a24260dca822254b6a7599152c_247250_filter_6331161270205693318.jpg" style="background-color: #343a3d" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_2350.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_2295.jpg" data-pswp-src="/horror/101_2295_hu7d63c7fcff593d9eed1871b0a7c89437_371000_filter_10933573887768330671.jpg" data-pswp-width="1600" data-pswp-height="1200" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 450">
+        <img loading="lazy" width="600" height="450" src="/horror/101_2295_hu7d63c7fcff593d9eed1871b0a7c89437_371000_filter_6331161270205693318.jpg" style="background-color: #433f43" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_2295.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_2294.png" data-pswp-src="/horror/101_2294_hu5cd173aabd48b3bfcf6be1aa4338191e_16688878_filter_10933573887768330671.png" data-pswp-width="1600" data-pswp-height="1200" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 450">
+        <img loading="lazy" width="600" height="450" src="/horror/101_2294_hu5cd173aabd48b3bfcf6be1aa4338191e_16688878_filter_6331161270205693318.png" style="background-color: #2d3133" alt="" />
+        <meta itemprop="contentUrl" content="/horror/101_2294.png" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_2190.jpg" data-pswp-src="/horror/101_2190_huaf3ca68bd8d0fb97af907b2d338bbf6c_843498_filter_10933573887768330671.jpg" data-pswp-width="1600" data-pswp-height="1200" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 450">
+        <img loading="lazy" width="600" height="450" src="/horror/101_2190_huaf3ca68bd8d0fb97af907b2d338bbf6c_843498_filter_6331161270205693318.jpg" style="background-color: #22222b" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_2190.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_1261.jpg" data-pswp-src="/horror/101_1261_hu8bb75c54ae6e60fd5d04b5aa048a39e7_885090_filter_10933573887768330671.jpg" data-pswp-width="1600" data-pswp-height="1200" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 450">
+        <img loading="lazy" width="600" height="450" src="/horror/101_1261_hu8bb75c54ae6e60fd5d04b5aa048a39e7_885090_filter_6331161270205693318.jpg" style="background-color: #20292a" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_1261.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_1243.jpg" data-pswp-src="/horror/101_1243_hu14cc6bc7f8366df86404a3736f553462_274903_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/101_1243_hu14cc6bc7f8366df86404a3736f553462_274903_filter_6331161270205693318.jpg" style="background-color: #242d2e" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_1243.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_0816.jpg" data-pswp-src="/horror/101_0816_hu0ee00d3c92fcab7d47be00cfafd72aad_209162_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/101_0816_hu0ee00d3c92fcab7d47be00cfafd72aad_209162_filter_6331161270205693318.jpg" style="background-color: #240701" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_0816.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_0760.jpg" data-pswp-src="/horror/101_0760_hu319534676ec0e5878239fd804f02a5d5_585481_filter_10933573887768330671.jpg" data-pswp-width="1600" data-pswp-height="1200" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 450">
+        <img loading="lazy" width="600" height="450" src="/horror/101_0760_hu319534676ec0e5878239fd804f02a5d5_585481_filter_6331161270205693318.jpg" style="background-color: #192222" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_0760.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_0740.jpg" data-pswp-src="/horror/101_0740_hu98d9e7a66cfa88b333c2cc6e0709a41e_498785_filter_10933573887768330671.jpg" data-pswp-width="1600" data-pswp-height="1200" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 450">
+        <img loading="lazy" width="600" height="450" src="/horror/101_0740_hu98d9e7a66cfa88b333c2cc6e0709a41e_498785_filter_6331161270205693318.jpg" style="background-color: #283132" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_0740.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_0583.jpg" data-pswp-src="/horror/101_0583_hubb9f9d37b432b0afc816b429f9c41254_861485_filter_10933573887768330671.jpg" data-pswp-width="1600" data-pswp-height="1200" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 450">
+        <img loading="lazy" width="600" height="450" src="/horror/101_0583_hubb9f9d37b432b0afc816b429f9c41254_861485_filter_6331161270205693318.jpg" style="background-color: #32292a" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_0583.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_0569.jpg" data-pswp-src="/horror/101_0569_hu16f95d5fcf54fc58e7690211e1a15bd9_368804_filter_10933573887768330671.jpg" data-pswp-width="1200" data-pswp-height="1600" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 450 / 600">
+        <img loading="lazy" width="450" height="600" src="/horror/101_0569_hu16f95d5fcf54fc58e7690211e1a15bd9_368804_filter_6331161270205693318.jpg" style="background-color: #251a1b" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_0569.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_0369-2.jpg" data-pswp-src="/horror/101_0369-2_huf59eef462fbbb590be25d577cafa369a_1196686_filter_10933573887768330671.jpg" data-pswp-width="1600" data-pswp-height="1200" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 450">
+        <img loading="lazy" width="600" height="450" src="/horror/101_0369-2_huf59eef462fbbb590be25d577cafa369a_1196686_filter_6331161270205693318.jpg" style="background-color: #0c110c" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_0369-2.jpg" />
+        
+      </a>
+    
+      
+      
+      
+      
+      <a class="gallery-item" href="/horror/101_0357-2.jpg" data-pswp-src="/horror/101_0357-2_hu617622cba22cdd52d90ee0f801b71a83_1653401_filter_10933573887768330671.jpg" data-pswp-width="1600" data-pswp-height="1200" title="KODAK Digital Still Camera" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 450">
+        <img loading="lazy" width="600" height="450" src="/horror/101_0357-2_hu617622cba22cdd52d90ee0f801b71a83_1653401_filter_6331161270205693318.jpg" style="background-color: #4b4241" alt="KODAK Digital Still Camera" />
+        <meta itemprop="contentUrl" content="/horror/101_0357-2.jpg" />
+        
+      </a>
+    
+  </div>
+</section>
+
+  
+
+
+
+    </main>
+    <footer>
+  
+
+  <section>
+    2023-2024 © Jakub Matyjaszek
+    
+      <a href="/kontakt/">
+        Kontakt
+      </a>
+    
+      <a href="https://instagram.com/barokos_designer">
+        Instagram
+      </a>
+    
+  </section>
+</footer>
+
   </body>
 </html>
